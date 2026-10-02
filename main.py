@@ -12,4 +12,5 @@ warehouse = load_warehouse(df_clean)
 generate_insights(df_clean)
 
 print(f"\n✅ ETL Complete: {len(df_clean)} listings warehoused")
+
 print("Check data/warehouse/rent_warehouse.csv and dashboard/rent_by_location.png")
